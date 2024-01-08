@@ -9,13 +9,16 @@ function* trianglewave(period, amplitude, offset) {
   }
 }
 
-const triangle = trianglewave(10, 1, 0);
-
-const nLongTrianglewave = (n) => {
+const nLongTrianglewave = (n, wavelength, amplitude, minimum) => {
   /**
    * @param {number} n - number of steps
+   * @param {number} period - period of the wave
+   * @param {number} amplitude - amplitude of the wave
+   * @param {number} minimum - minimum value of the wave
    * @return {number[]}
    */
+  const triangle = trianglewave(wavelength, amplitude, minimum);
+
   let result = [];
   for (let i = 0; i < n; i++) {
     result.push(+Number(triangle.next().value).toFixed(2));

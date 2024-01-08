@@ -1,3 +1,9 @@
-const { person } = require("./generators/");
+const person = require("./generators/person/index.js");
+const signals = require("./generators/signals/index.js");
+const time = require("./generators/time/index.js");
 
-console.log(person.randomPerson());
+module.exports = {
+  person,
+  signals,
+  time,
+};

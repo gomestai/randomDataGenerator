@@ -1,5 +1,9 @@
 {
-  "name": "randomDataGenerator",
+  "name": "random-data-gen",
   "version": "1.0.0",
-  "author": "Sencer Öztüfekçi <tufekcisencer@gmail.com>"
+  "author": "Sencer Öztüfekçi <tufekcisencer@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gomestai/randomDataGenerator"
+  }
 }
