@@ -1,6 +1,6 @@
 # Random Data Generator
 
-This repository contains a random data generator module that can be used to generate various types of random data.
+This package contains a random data generator module that can be used to generate various types of random data.
 
 ## Installation
 
