@@ -14,4 +14,4 @@ const generateTimeSeries = (start, n, stepSize) => {
   return result;
 };
 
-module.exports = generateTimeSeries;
+module.exports = { generateTimeSeries };
