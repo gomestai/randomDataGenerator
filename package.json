@@ -1,6 +1,6 @@
 {
   "name": "random-data-gen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Sencer Öztüfekçi <tufekcisencer@gmail.com>",
   "repository": {
     "type": "git",
@@ -13,5 +13,6 @@
     "random data generator",
     "mock data",
     "mock data generator"
-  ]
+  ],
+  "license": "MIT"
 }
